@@ -1,0 +1,1 @@
+update usr set password = if(username != 'Chubrila', MD5(password), password)
